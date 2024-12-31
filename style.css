@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 300px;
+    text-transform: uppercase;
+}
+nav div{
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    list-style: none;
+}
+nav ul li a{ 
+    color: black;
+}
+.log{
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgb(182, 104, 255);
+}
+.log:hover{
+    background-color: rgb(182, 104, 255);
+}
+.sign{
+    padding: 10px;
+    background-color: rgb(182, 104, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(182, 104, 255);
+}
+.sign:hover{
+    background-color: white;
+}
+
+/*  */
+.home{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding-top: 130px;
+
+}
+.home-text{
+    width: 70%;
+}
+.home .texthead{
+    justify-content: center; 
+    text-align: center;
+    width: 100%;
+    padding-left:30%;
+}
+
+.home img{
+    max-width: 80%;
+}
+/* features */
+.features{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(222, 225, 222);
+    height: auto;
+    padding: 20px;
+}
+.features-text{
+    padding-top: 40px;
+}
+.boxdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    padding: 55px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 35px;
+    line-height: 30px;
+    width: 15%;
+}
+.box:hover{
+    background-color: rgb(40, 3, 255);
+}
+/* lead */
+.lead{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.lead-text{
+    align-content: center;
+    width: 40%;
+    text-align: left;
+    padding-left: 60px;
+}
+.lead-img img{
+    max-width: 100%;
+}
+/* client */
+.client{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.client-text{
+    align-content: center;
+    width: 40%;
+    text-align: left;
+}
+.client-img img{
+    max-width: 100%;
+}
+/* companies */
+.companies{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.companies-text{
+    align-content: center;
+    width: 40%;
+    text-align: left;
+    padding-left: 60px;
+}
+.companies-img img{
+    max-width: 100%;
+}
+/* contact */
+.contact{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.contact-text{
+    align-content: center;
+    width: 40%;
+    text-align: left;
+}
+.contact-img img{
+    max-width: 100%;
+}
+/* Campaigns */
+.Campaigns{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.Campaigns-text{
+    align-content: center;
+    width: 40%;
+    text-align: left;
+    padding-left: 60px;
+}
+.Campaigns-img img{
+    max-width: 100%;
+}
+/* Target */
+.Target{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.Target-text{
+    align-content: center;
+    width: 40%;
+    text-align: left;
+}
+.Target-img img{
+    max-width: 100%;
+}
+/* Estimates */
+.Estimates{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.Estimates-text{
+    align-content: center;
+    width: 40%;
+    text-align: left;
+    padding-left: 60px;
+}
+.Estimates-img img{
+    max-width: 100%;
+}
+/* bg */
+.bg{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+    gap: 30px;  
+}
+.bg-text{
+    align-content: center;
+    width: 40%;
+    text-align: left;
+    padding-left: 60px;
+}
+.bg-img img{
+    max-width: 100%;
+}
+/* footer */
+footer{
+    margin-top: 30px;
+    background-color: rgb(227, 225, 225);
+}
+footer .links{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    justify-content: center;
+    gap: 60px;
+}
+.flogo{
+    width:20%;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 45%;
+}
+
+/* button */
+button{
+    padding: 10px;
+    background-color: rgb(182, 104, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(182, 104, 255);
+}
+button:hover{
+    background-color: white;
+    border: 1px solid rgb(182, 104, 255);
+}
+.demo{
+    padding: 10px;
+    background-color: rgb(141, 204, 141);
+    border-radius: 20px;
+    border: 1px solid green;
+}
+/* close */
+#showslider{
+    display: none;
+}
+.navright{
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: black;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+}
+span{
+    color: rgb(182, 104, 255);
+
+}
+
+
+@media (max-width:1000px) {
+    nav ul{
+        display: none;
+    }
+    #showslider{
+        display: flex;
+        float: right;
+        overflow: hidden;
+    }
+    .box{
+        width: fit-content;
+    }
+    .lead-text{
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+    .client-text{
+        text-align: center;
+        width: 100%;
+    }
+    .companies-text{
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+    .contact-text{
+        text-align: center;
+        width: 100%;
+    }
+    .Campaigns-text{
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+    .Target-text{
+        text-align: center;
+        width: 100%;
+    }    
+    .Estimates-text{
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+    .links{
+        flex-direction: column;
+        text-align: left;
+    }
+    .flogo{
+        width: auto;
+    }
+    .home-text{
+        width: 100%;
+    }
+    .home .texthead{
+        padding-left:0;
+    }
+}
+@media (max-width:500px) {
+    nav div img{
+        display: none;
+    }
+    #showslider{
+        padding-right: 100px;
+    }
+}
